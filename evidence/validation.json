@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-30",
+  "fictionalDevelopmentInputs": true,
+  "independentBenchmark": false,
+  "provider": "Nebius Token Factory",
+  "requestedModel": "nvidia/Nemotron-3_5-Lightning",
+  "actualProviderAttempts": 4,
+  "successfulResponses": 3,
+  "incompleteResponsesRejected": 1,
+  "automaticRetries": 0,
+  "attemptsRemainingInDeveloperInstallation": 0,
+  "offlineChecksPassed": 23,
+  "examples": [
+    {
+      "attempt": 1,
+      "language": "en",
+      "outcome": "incomplete rejected",
+      "actualTokens": null,
+      "evidence": "first-incomplete-response.json"
+    },
+    {
+      "attempt": 2,
+      "language": "en",
+      "outcome": "complete API response",
+      "requirements": 4,
+      "questionItems": 1,
+      "conflicts": 1,
+      "totalTokens": 664,
+      "evidence": "english-api-response.json"
+    },
+    {
+      "attempt": 3,
+      "language": "pl",
+      "outcome": "complete browser response",
+      "requirements": 3,
+      "questionItems": 4,
+      "conflicts": 1,
+      "totalTokens": 866,
+      "tokenBreakdownAvailable": false,
+      "evidence": "polish-browser-dom.txt"
+    },
+    {
+      "attempt": 4,
+      "language": "en",
+      "outcome": "complete browser response",
+      "requirements": 5,
+      "questionItems": 2,
+      "conflicts": 2,
+      "totalTokens": 823,
+      "tokenBreakdownAvailable": false,
+      "evidence": "english-browser-dom.json"
+    }
+  ],
+  "limitations": [
+    "Exact quotations do not prove complete or correct interpretation.",
+    "Earlier responses omitted the timing conflict; some question items were topics.",
+    "The first failed request usage was not captured.",
+    "Download completion confirmed by participant, not independently parsed by automation.",
+    "Browser evidence is observed DOM, not raw provider response.",
+    "Live judging requires the reviewer own configured Nebius account/key; no entrant credentials are shared."
+  ],
+  "downloadConfirmedByParticipant": true,
+  "publiclySubmitted": false
+}

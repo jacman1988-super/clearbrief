@@ -1,0 +1,104 @@
+- banner:
+  - link "◒ ClearBrief":
+    - /url: "#"
+  - button "English"
+- main:
+  - paragraph: Z CHAOSU DO JASNEGO PLANU
+  - heading "Zanim zaczniesz. Ustalmy, co jest ważne." [level=1]
+  - paragraph: Wklej opis zadania. Zbierz wymagania, zauważ sprzeczności i sprawdź, o co warto dopytać.
+  - heading "Twój opis zadania" [level=2]
+  - generic: 365 / 10000
+  - paragraph: Przykład jest fikcyjny. Możesz go zastąpić własnym tekstem.
+  - generic: Twój opis zadania
+  - textbox "Twój opis zadania": Potrzebujemy prostej strony dla małej pracowni ceramicznej. Strona ma pokazać 8 produktów, zdjęcia i formularz kontaktowy. Pierwsza wersja powinna być gotowa do 24 października. Zdjęcia będą dostępne dopiero 28 października. Na razie nie chcemy koszyka ani płatności. Klient ma móc od razu kupić produkt online. Nie ustaliliśmy jeszcze, kto napisze opisy produktów.
+  - button "Wczytaj przykład"
+  - button "Uporządkuj lokalnie"
+  - heading "Druga para oczu" [level=3]
+  - paragraph: Model NVIDIA może rozdzielić wymagania, pytania i sprzeczności. Wybrany tekst trafi do Nebius.
+  - checkbox "Zgadzam się wysłać ten tekst do Nebius. Nie zawiera haseł ani prywatnych danych." [checked]
+  - generic: Zgadzam się wysłać ten tekst do Nebius. Nie zawiera haseł ani prywatnych danych.
+  - button "Przeanalizuj z NVIDIA"
+  - status: "Nebius skonfigurowany. Do wysłania potrzebna jest Twoja zgoda. Pozostałe próby (limit zachowany po restarcie): 1"
+  - paragraph: MIEJSCE NA DOBRE DECYZJE
+  - heading "Najpierw jasność. Potem działanie." [level=2]
+  - paragraph: Każda notatka ma odnośnik do źródła. Cytat potwierdza treść fragmentu; interpretację sprawdzasz Ty.
+  - strong: "3"
+  - text: Wymagania
+  - strong: "4"
+  - text: Pytania
+  - strong: "1"
+  - text: Sprzeczności
+  - status: Szkic AI z cytatami sprawdzonymi znak po znaku. Sprawdź interpretację i ewentualne pominięcia.
+  - article:
+    - paragraph: Wymagania
+    - heading "Strona dla małej pracowni ceramicznej" [level=3]
+    - blockquote:
+      - text: Linia 1
+      - text: “Potrzebujemy prostej strony dla małej pracowni ceramicznej.”
+    - checkbox "Sprawdziłem/am tę notatkę"
+    - text: Sprawdziłem/am tę notatkę
+  - article:
+    - paragraph: Wymagania
+    - heading "Wyświetlenie 8 produktów z zdjęciami" [level=3]
+    - blockquote:
+      - text: Linia 2
+      - text: “Strona ma pokazać 8 produktów, zdjęcia i formularz kontaktowy.”
+    - checkbox "Sprawdziłem/am tę notatkę"
+    - text: Sprawdziłem/am tę notatkę
+  - article:
+    - paragraph: Wymagania
+    - heading "Formularz kontaktowy" [level=3]
+    - blockquote:
+      - text: Linia 2
+      - text: “Strona ma pokazać 8 produktów, zdjęcia i formularz kontaktowy.”
+    - checkbox "Sprawdziłem/am tę notatkę"
+    - text: Sprawdziłem/am tę notatkę
+  - article:
+    - paragraph: Pytania
+    - heading "Termin realizacji pierwszej wersji" [level=3]
+    - blockquote:
+      - text: Linia 3
+      - text: “Pierwsza wersja powinna być gotowa do 24 października.”
+    - checkbox "Sprawdziłem/am tę notatkę"
+    - text: Sprawdziłem/am tę notatkę
+  - article:
+    - paragraph: Pytania
+    - heading "Dostępność zdjęć produktów" [level=3]
+    - blockquote:
+      - text: Linia 4
+      - text: “Zdjęcia będą dostępne dopiero 28 października.”
+    - checkbox "Sprawdziłem/am tę notatkę"
+    - text: Sprawdziłem/am tę notatkę
+  - article:
+    - paragraph: Pytania
+    - heading "Funkcjonalność zakupowa" [level=3]
+    - blockquote:
+      - text: Linia 5
+      - text: “Na razie nie chcemy koszyka ani płatności.”
+    - blockquote:
+      - text: Linia 6
+      - text: “Klient ma móc od razu kupić produkt online.”
+    - checkbox "Sprawdziłem/am tę notatkę"
+    - text: Sprawdziłem/am tę notatkę
+  - article:
+    - paragraph: Pytania
+    - heading "Autor opisów produktów" [level=3]
+    - blockquote:
+      - text: Linia 7
+      - text: “Nie ustaliliśmy jeszcze, kto napisze opisy produktów.”
+    - checkbox "Sprawdziłem/am tę notatkę"
+    - text: Sprawdziłem/am tę notatkę
+  - article:
+    - paragraph: Sprzeczności
+    - heading "Konflikt w funkcjonalności zakupowej" [level=3]
+    - blockquote:
+      - text: Linia 5
+      - text: “Na razie nie chcemy koszyka ani płatności.”
+    - blockquote:
+      - text: Linia 6
+      - text: “Klient ma móc od razu kupić produkt online.”
+    - checkbox "Sprawdziłem/am tę notatkę"
+    - text: Sprawdziłem/am tę notatkę
+  - button "Pobierz notatki JSON" [active]
+  - paragraph: "Źródło: Nebius Token Factory · nvidia/Nemotron-3_5-Lightning · 866 tokens"
+  - generic: Wersja robocza. Niczego nie wysyła, nie zapisuje do kalendarza i nie przyjmuje zobowiązań za Ciebie. Tryb lokalny nie korzysta z AI.

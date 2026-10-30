@@ -1,0 +1,122 @@
+{
+  "source": "Reconstructed from actual visible browser DOM, not a raw provider response; quotations checked again with core validator.",
+  "fictionalInput": true,
+  "brief": "We need a simple website for a small ceramics studio.\nThe site must show 8 products, photos and a contact form.\nThe first version should be ready by October 24.\nPhotos will only be available on October 28.\nWe do not want a cart or payments for now.\nThe customer must be able to buy a product online immediately.\nWe have not yet agreed who will write the product descriptions.",
+  "requestedModel": "nvidia/Nemotron-3_5-Lightning",
+  "reportedTotalTokens": 823,
+  "analysis": {
+    "requirements": [
+      {
+        "id": "requirements-1",
+        "title": "Simple website for ceramics studio",
+        "evidence": [
+          {
+            "line": 1,
+            "quote": "We need a simple website for a small ceramics studio."
+          }
+        ],
+        "accepted": false
+      },
+      {
+        "id": "requirements-2",
+        "title": "Display 8 products with photos and contact form",
+        "evidence": [
+          {
+            "line": 2,
+            "quote": "The site must show 8 products, photos and a contact form."
+          }
+        ],
+        "accepted": false
+      },
+      {
+        "id": "requirements-3",
+        "title": "First version ready by October 24",
+        "evidence": [
+          {
+            "line": 3,
+            "quote": "The first version should be ready by October 24."
+          }
+        ],
+        "accepted": false
+      },
+      {
+        "id": "requirements-4",
+        "title": "No cart or payments for now",
+        "evidence": [
+          {
+            "line": 5,
+            "quote": "We do not want a cart or payments for now."
+          }
+        ],
+        "accepted": false
+      },
+      {
+        "id": "requirements-5",
+        "title": "Product descriptions assignment unclear",
+        "evidence": [
+          {
+            "line": 7,
+            "quote": "We have not yet agreed who will write the product descriptions."
+          }
+        ],
+        "accepted": false
+      }
+    ],
+    "questions": [
+      {
+        "id": "questions-1",
+        "title": "How to handle online purchase without cart/payments?",
+        "evidence": [
+          {
+            "line": 6,
+            "quote": "The customer must be able to buy a product online immediately."
+          }
+        ],
+        "accepted": false
+      },
+      {
+        "id": "questions-2",
+        "title": "Photo availability timeline",
+        "evidence": [
+          {
+            "line": 4,
+            "quote": "Photos will only be available on October 28."
+          }
+        ],
+        "accepted": false
+      }
+    ],
+    "conflicts": [
+      {
+        "id": "conflicts-1",
+        "title": "Deadline vs photo availability",
+        "evidence": [
+          {
+            "line": 3,
+            "quote": "The first version should be ready by October 24."
+          },
+          {
+            "line": 4,
+            "quote": "Photos will only be available on October 28."
+          }
+        ],
+        "accepted": false
+      },
+      {
+        "id": "conflicts-2",
+        "title": "Online purchase vs no cart/payments",
+        "evidence": [
+          {
+            "line": 5,
+            "quote": "We do not want a cart or payments for now."
+          },
+          {
+            "line": 6,
+            "quote": "The customer must be able to buy a product online immediately."
+          }
+        ],
+        "accepted": false
+      }
+    ]
+  }
+}

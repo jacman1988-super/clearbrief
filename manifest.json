@@ -1,0 +1,158 @@
+{
+  "application": "ClearBrief",
+  "version": "0.1.0",
+  "credentialFilesIncluded": false,
+  "privateAttemptSlotsIncluded": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 50,
+      "sha256": "e3c676dbf3137b5886c3f3c6ec1ccec31c0d0616efb0e7f59b28a0d4ac42d29a"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1073,
+      "sha256": "eba3c1bb9ade78fe392a43ab0509eea0708685e7d8baf916bd5576e45ed14738"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8686,
+      "sha256": "a20c82e119e074933082956fa53bb23b0e0ffe85a3c6a5c4c41ade090b1aa483"
+    },
+    {
+      "path": "package.json",
+      "bytes": 195,
+      "sha256": "127aaad05e7c1ab6d44c70149489680776f79983dff81ea8cad6dabd2faf346a"
+    },
+    {
+      "path": "attempt-budget.mjs",
+      "bytes": 979,
+      "sha256": "697629f1295395ba2e761d13025f3ee62babdea72565e5fe587a4933691d5cfa"
+    },
+    {
+      "path": "attempt-budget.test.mjs",
+      "bytes": 2225,
+      "sha256": "1e4db6413712c8a317796f606e45556b3883d81147c23d1ff621aaf64ab12327"
+    },
+    {
+      "path": "build.mjs",
+      "bytes": 864,
+      "sha256": "aa53a6ed68516baa85628152ee91e9175a9783f3482878df305c79a6006d0a45"
+    },
+    {
+      "path": "core.mjs",
+      "bytes": 2688,
+      "sha256": "aab088529e771229fb84e45fc3dd62e93a431f2a161f2be371b1bdec5872ece5"
+    },
+    {
+      "path": "core.test.mjs",
+      "bytes": 2373,
+      "sha256": "de9c9f264c66059919aeeefe92dc475ca3cb90fc3029e12d713ad81b759c5ef2"
+    },
+    {
+      "path": "nebius.mjs",
+      "bytes": 4330,
+      "sha256": "286524b304044402ee2e11eaefefeb76eae9a459951e7f3725910aaeae6c867b"
+    },
+    {
+      "path": "nebius.test.mjs",
+      "bytes": 2932,
+      "sha256": "da9c31c8cea302aaf562c7189950c2e9bc2c7ef63f35c1a8fc1480d90855d673"
+    },
+    {
+      "path": "nebius-local.mjs",
+      "bytes": 2203,
+      "sha256": "8d67b74a17473aff4b89f4b422b76304efb4987ba93fab9c28fae1d17bc9539d"
+    },
+    {
+      "path": "server.mjs",
+      "bytes": 4409,
+      "sha256": "505e1c84b04ebebb2b5fb62c9cf5aae04c8357ac5c938fbeee957969c166be7a"
+    },
+    {
+      "path": "server.test.mjs",
+      "bytes": 2185,
+      "sha256": "8fee9d9bf5130ea4522acd4a55af7a1eb149afc48b6bfe38c790aed9308f9ca8"
+    },
+    {
+      "path": "ui.mjs",
+      "bytes": 10643,
+      "sha256": "c6876549a8aa5fbfecf2dbba5a3875c4fa27d63284d065bc9825536f9ded53b3"
+    },
+    {
+      "path": "ui.test.mjs",
+      "bytes": 4598,
+      "sha256": "e543a556857c1886b0ec0123741b81c96703d87fe33c8b9800b275a9c16f7ed3"
+    },
+    {
+      "path": "Uruchom-ClearBrief.cmd",
+      "bytes": 318,
+      "sha256": "9d3c499bda352b746bd4a61cf91a52079e96e4e63fd85ebe25fb0b078073023c"
+    },
+    {
+      "path": "Podlacz-Nebius.cmd",
+      "bytes": 324,
+      "sha256": "0a4836b1ed3911f1b3abbed10bc0c9fb7c3f5f0424f583a360a8a97c8a027403"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 3031,
+      "sha256": "1ab0767992da282c70f606ab6b14830d2f1833d3bea3d7e46b2c20e56bf5f680"
+    },
+    {
+      "path": "dist/style.css",
+      "bytes": 3718,
+      "sha256": "fdc36e5d41f343d792166e6763180589e4a404b50507765f9a85eea72abd218a"
+    },
+    {
+      "path": "dist/app.js",
+      "bytes": 13233,
+      "sha256": "89463be3b5bc860087aee05a52e400c76983318d20f4ff11d1856a8e7864eae8"
+    },
+    {
+      "path": "evidence/english-api-response.json",
+      "bytes": 2920,
+      "sha256": "619d678526300d52c5142a0abb5d02ca97034811a0fa6902bb8194be2216e08e"
+    },
+    {
+      "path": "evidence/english-browser-analysis.json",
+      "bytes": 3563,
+      "sha256": "9ce003dba515aea38c5a712e7100836262f93d35819d1b66d8304e38196531e0"
+    },
+    {
+      "path": "evidence/english-browser-dom.json",
+      "bytes": 3708,
+      "sha256": "d582656fd408fad0ce7eb215726e2cc34f3d764d4fc414d9fc9a5fdf3146e4a3"
+    },
+    {
+      "path": "evidence/first-incomplete-response.json",
+      "bytes": 633,
+      "sha256": "6f45a268f85cfd3ade5cfa9d0758c4a839ef875f91e4ee08f76189ed8a66f74b"
+    },
+    {
+      "path": "evidence/polish-browser-dom.txt",
+      "bytes": 4834,
+      "sha256": "dda6f0f0b577e0b16b68b7ce9ac5a414f8d8189696f1f01a0837f4364b0b65c3"
+    },
+    {
+      "path": "evidence/validation.json",
+      "bytes": 2047,
+      "sha256": "37f90b601e719c1a4490e18301865f3283d1e19f7dace528939a1c2a6324e751"
+    },
+    {
+      "path": "ClearBrief-demo.html",
+      "bytes": 19944,
+      "sha256": "a79e0e0388d56093edaeaaeb11e847abad065b2e0da51e4ebad10de4a19b1678"
+    },
+    {
+      "path": "media/live-english-overview.png",
+      "bytes": 97033,
+      "sha256": "4c940c084d07e7c0e9ba204b10b5382de3e5c50a5222b5aa033be07744aff10f"
+    },
+    {
+      "path": "media/live-english-conflicts.png",
+      "bytes": 52303,
+      "sha256": "f305e412ca7f8cba227c898d5c2dd307cd278f34a34790f07426ee1de3b4f877"
+    }
+  ]
+}

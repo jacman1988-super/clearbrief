@@ -1,0 +1,98 @@
+{
+  "atUtc": "2026-10-30T08:51:09.529Z",
+  "syntheticInput": true,
+  "language": "en",
+  "brief": "We need a simple website for a small ceramics studio.\nThe site must show 8 products, photos and a contact form.\nThe first version should be ready by October 24.\nPhotos will only be available on October 28.\nWe do not want a cart or payments for now.\nThe customer must be able to buy a product online immediately.\nWe have not yet agreed who will write the product descriptions.",
+  "attemptsBefore": 3,
+  "httpStatus": 200,
+  "success": true,
+  "response": {
+    "result": {
+      "requirements": [
+        {
+          "id": "requirements-1",
+          "title": "Simple website for ceramics studio",
+          "evidence": [
+            {
+              "line": 1,
+              "quote": "We need a simple website for a small ceramics studio."
+            }
+          ],
+          "accepted": false
+        },
+        {
+          "id": "requirements-2",
+          "title": "Display 8 products with photos and contact form",
+          "evidence": [
+            {
+              "line": 2,
+              "quote": "The site must show 8 products, photos and a contact form."
+            }
+          ],
+          "accepted": false
+        },
+        {
+          "id": "requirements-3",
+          "title": "First version ready by October 24",
+          "evidence": [
+            {
+              "line": 3,
+              "quote": "The first version should be ready by October 24."
+            }
+          ],
+          "accepted": false
+        },
+        {
+          "id": "requirements-4",
+          "title": "No cart or payments for now",
+          "evidence": [
+            {
+              "line": 5,
+              "quote": "We do not want a cart or payments for now."
+            }
+          ],
+          "accepted": false
+        }
+      ],
+      "questions": [
+        {
+          "id": "questions-1",
+          "title": "Product descriptions responsibility",
+          "evidence": [
+            {
+              "line": 7,
+              "quote": "We have not yet agreed who will write the product descriptions."
+            }
+          ],
+          "accepted": false
+        }
+      ],
+      "conflicts": [
+        {
+          "id": "conflicts-1",
+          "title": "Immediate online purchase vs no cart/payments",
+          "evidence": [
+            {
+              "line": 6,
+              "quote": "The customer must be able to buy a product online immediately."
+            },
+            {
+              "line": 5,
+              "quote": "We do not want a cart or payments for now."
+            }
+          ],
+          "accepted": false
+        }
+      ]
+    },
+    "mode": "nebius",
+    "model": "nvidia/Nemotron-3_5-Lightning",
+    "usage": {
+      "prompt_tokens": 336,
+      "completion_tokens": 328,
+      "total_tokens": 664
+    },
+    "remainingCalls": 2
+  },
+  "finishedAtUtc": "2026-10-30T08:51:10.893Z"
+}

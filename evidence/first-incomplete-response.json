@@ -1,0 +1,11 @@
+{
+  "atUtc": "2026-10-30T08:45:09.440Z",
+  "syntheticInput": true,
+  "language": "en",
+  "brief": "We need a simple website for a small ceramics studio.\nThe site must show 8 products, photos and a contact form.\nThe first version should be ready by October 24.\nPhotos will only be available on October 28.\nWe do not want a cart or payments for now.\nThe customer must be able to buy a product online immediately.\nWe have not yet agreed who will write the product descriptions.",
+  "attemptsBefore": 4,
+  "httpStatus": 502,
+  "success": false,
+  "error": "NEBIUS_INCOMPLETE_RESULT",
+  "finishedAtUtc": "2026-10-30T08:45:28.246Z"
+}

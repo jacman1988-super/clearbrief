@@ -1,0 +1,121 @@
+{
+  "atUtc": "2026-10-30T09:06:45.723Z",
+  "source": "Actual visible browser DOM; not a raw provider response",
+  "brief": "We need a simple website for a small ceramics studio.\nThe site must show 8 products, photos and a contact form.\nThe first version should be ready by October 24.\nPhotos will only be available on October 28.\nWe do not want a cart or payments for now.\nThe customer must be able to buy a product online immediately.\nWe have not yet agreed who will write the product descriptions.",
+  "budget": "Nebius configured. Your permission is needed before sending. Attempts remaining (limit survives restart): 0",
+  "cards": [
+    {
+      "category": "Requirements",
+      "quotes": [
+        {
+          "excerpt": "Line 1\n“We need a simple website for a small ceramics studio.”",
+          "line": "Line 1"
+        }
+      ],
+      "reviewed": false,
+      "title": "Simple website for ceramics studio"
+    },
+    {
+      "category": "Requirements",
+      "quotes": [
+        {
+          "excerpt": "Line 2\n“The site must show 8 products, photos and a contact form.”",
+          "line": "Line 2"
+        }
+      ],
+      "reviewed": false,
+      "title": "Display 8 products with photos and contact form"
+    },
+    {
+      "category": "Requirements",
+      "quotes": [
+        {
+          "excerpt": "Line 3\n“The first version should be ready by October 24.”",
+          "line": "Line 3"
+        }
+      ],
+      "reviewed": false,
+      "title": "First version ready by October 24"
+    },
+    {
+      "category": "Requirements",
+      "quotes": [
+        {
+          "excerpt": "Line 5\n“We do not want a cart or payments for now.”",
+          "line": "Line 5"
+        }
+      ],
+      "reviewed": false,
+      "title": "No cart or payments for now"
+    },
+    {
+      "category": "Requirements",
+      "quotes": [
+        {
+          "excerpt": "Line 7\n“We have not yet agreed who will write the product descriptions.”",
+          "line": "Line 7"
+        }
+      ],
+      "reviewed": false,
+      "title": "Product descriptions assignment unclear"
+    },
+    {
+      "category": "Questions",
+      "quotes": [
+        {
+          "excerpt": "Line 6\n“The customer must be able to buy a product online immediately.”",
+          "line": "Line 6"
+        }
+      ],
+      "reviewed": false,
+      "title": "How to handle online purchase without cart/payments?"
+    },
+    {
+      "category": "Questions",
+      "quotes": [
+        {
+          "excerpt": "Line 4\n“Photos will only be available on October 28.”",
+          "line": "Line 4"
+        }
+      ],
+      "reviewed": false,
+      "title": "Photo availability timeline"
+    },
+    {
+      "category": "Conflicts",
+      "quotes": [
+        {
+          "excerpt": "Line 3\n“The first version should be ready by October 24.”",
+          "line": "Line 3"
+        },
+        {
+          "excerpt": "Line 4\n“Photos will only be available on October 28.”",
+          "line": "Line 4"
+        }
+      ],
+      "reviewed": false,
+      "title": "Deadline vs photo availability"
+    },
+    {
+      "category": "Conflicts",
+      "quotes": [
+        {
+          "excerpt": "Line 5\n“We do not want a cart or payments for now.”",
+          "line": "Line 5"
+        },
+        {
+          "excerpt": "Line 6\n“The customer must be able to buy a product online immediately.”",
+          "line": "Line 6"
+        }
+      ],
+      "reviewed": false,
+      "title": "Online purchase vs no cart/payments"
+    }
+  ],
+  "counts": {
+    "conflicts": "2",
+    "questions": "2",
+    "requirements": "5"
+  },
+  "provenance": "Source: Nebius Token Factory · nvidia/Nemotron-3_5-Lightning · 823 tokens"
+}
